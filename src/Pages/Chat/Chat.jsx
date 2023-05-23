@@ -47,7 +47,7 @@ const Chat = () => {
             }
         }
         getChat()
-    }, [user, chats])
+    }, [user])
 
     // SEND MESSAGE TO SOCKET SERVER
     useEffect(() => {
