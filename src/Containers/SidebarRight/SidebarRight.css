@@ -31,3 +31,6 @@
 .sidebar-right::-webkit-scrollbar-thumb {
     background-color: var(--grey)
 }
+.sidebar-right .Button_logout {
+    max-height: 3.5em;
+}

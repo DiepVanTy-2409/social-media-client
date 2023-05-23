@@ -12,7 +12,7 @@ const SidebarRight = () => {
     }
     return (
         <div className="sidebar-right">
-            <Button handleClick={handleLogout}><MdOutlineLogout />  Đăng xuất</Button>
+            <Button className='Button_logout' handleClick={handleLogout}><MdOutlineLogout />  Đăng xuất</Button>
             <Users heading='Những người bạn có thể biết!' />
             <TrendsCard />
         </div>

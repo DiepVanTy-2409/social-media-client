@@ -1,6 +1,5 @@
 import React from 'react';
 import './Button.css'
-import { useDispatch } from 'react-redux';
 const Button = ({ children, style, handleClick, type = 'button', className}) => {
     const classButton =  `Button ${className}`
     return (
