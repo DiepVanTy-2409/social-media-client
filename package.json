@@ -1,7 +1,7 @@
 {
   "name": "social-media",
   "private": true,
-  "proxy": "http://localhost:5000",
+  "proxy": "https://media-server-4.onrender.com",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
