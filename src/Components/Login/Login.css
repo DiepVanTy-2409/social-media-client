@@ -1,0 +1,26 @@
+.Login .Form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+.Login .errorMessage,
+.Login .InputField {
+    grid-column: 1 / span 2;
+}
+
+.Login .Button[type='submit'] {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.Login .Button {
+    height: 2.5em;
+}
+.Login .Button[type='button'] {
+    font-size: 0.8rem;
+    text-decoration: underline;
+}
+.Login .errorMessage {
+    color: var(--red);
+    text-align: center;
+}

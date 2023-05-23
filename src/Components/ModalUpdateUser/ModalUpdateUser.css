@@ -1,0 +1,38 @@
+.ModalUpdateUser {
+    width: 30em;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    z-index: var(--indexOfModal);
+    border-radius: 0.7em;
+    -webkit-border-radius: 0.7em;
+    -moz-border-radius: 0.7em;
+    -ms-border-radius: 0.7em;
+    -o-border-radius: 0.7em;
+    background-color: var(--white);
+}
+
+.ModalUpdateUser .Form {
+    display: grid;
+    grid-template-columns: repeat(2, calc(50% - 0.5em));
+    gap: 1em;
+    width: 100%;
+}
+
+.ModalUpdateUser .InputField:nth-child(3),
+.ModalUpdateUser .InputField:nth-child(6) {
+    grid-column: 1 / span 2;
+}
+
+.ModalUpdateUser .InputField input {
+    background-color: rgba(255, 255, 255, 0.603);
+}
+
+.ModalUpdateUser .Form .Button[type='submit'] {
+    grid-column: 2;
+}

@@ -1,0 +1,12 @@
+.trendsCard h2 {
+    padding-bottom: 0.5em;
+}
+.trendsCard__title {
+    padding: 0.25em;
+}
+
+.trendsCard__info {
+    color: var(--grey-2);
+    font-size: 0.9rem;
+    padding: 0.25em;
+}

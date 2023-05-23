@@ -1,0 +1,32 @@
+.Register .Form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+.Register .errorMessage,
+.Register .InputField:nth-child(3),
+.Register__checkPassword {
+    grid-column: 1 / span 2;
+}
+.Register__checkPassword {
+    color: rgb(252, 98, 98);
+    font-size: 0.9em;
+    text-align: center;
+}
+.Register .Button[type='submit'] {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.Register .Button {
+    height: 2.5em;
+}
+
+.Register .Button[type='button'] {
+    font-size: 0.8rem;
+    text-decoration: underline;
+}
+.Register .errorMessage {
+    color: var(--red);
+    text-align: center;
+}

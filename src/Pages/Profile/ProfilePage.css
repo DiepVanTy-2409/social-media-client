@@ -1,0 +1,100 @@
+.ProfilePage {
+    padding: 1.5em;
+    display: grid;
+    gap: 1em;
+}
+
+.ProfilePage__hero {
+    border: 1px solid var(--grey);
+    overflow: hidden;
+    border-radius: 0.3em;
+    -webkit-border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+    -ms-border-radius: 0.3em;
+    -o-border-radius: 0.3em;
+}
+
+.ProfilePage__image {
+    position: relative;
+    width: 100%;
+    height: 15em;
+}
+
+.ProfilePage__coverPicture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ProfilePage__image .Avatar {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    -webkit-transform: translate(-50%, 50%);
+    -moz-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    -o-transform: translate(-50%, 50%);
+}
+
+.ProfilePage__userName {
+    position: absolute;
+    left: 50%;
+    top: calc(100% + 3em);
+    font-weight: bold;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.ProfilePage__nav {
+    padding: 6em 0.5em 1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    justify-content: center;
+    background-color: var(--white);
+}
+.ProfilePage__nav .button_group {
+    display: flex;
+    gap: 0.5em;
+}
+.button-message {
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    color: white;
+    border-radius: 0.3em;
+    -webkit-border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+    -ms-border-radius: 0.3em;
+    -o-border-radius: 0.3em;
+}
+.Button.active {
+    background-color: #f9f9f9;
+    color: var(--blue);
+}
+
+.profilePage__about {
+    background-color: var(--white);
+    border: 1px solid var(--grey);
+    overflow: hidden;
+    border-radius: 0.3em;
+    -webkit-border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+    -ms-border-radius: 0.3em;
+    -o-border-radius: 0.3em;
+    padding: 0.5em;
+}
+
+.profilePage__about p {
+    padding: 0.5em;
+}
+
+.user_info {
+    font-weight: bold;
+}

@@ -1,0 +1,76 @@
+.Form {
+    position: relative;
+    padding: 1em;
+    box-shadow: var(--shadow);
+    border-radius: 0.7em;
+    -webkit-border-radius: 0.7em;
+    -moz-border-radius: 0.7em;
+    -ms-border-radius: 0.7em;
+    -o-border-radius: 0.7em;
+    /* backdrop-filter: blur(50px); */
+    border: 1px solid var(--grey);
+}
+
+.Form::before,
+.Form::after {
+    content: '';
+    position: absolute;
+    height: 5em;
+    width: 5em;
+    background-color: dodgerblue;
+    z-index: -1;
+    filter: blur(50px);
+    -webkit-filter: blur(50px);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.Form::after {
+    bottom: 0;
+    right: 0;
+    background-color: rgb(236, 103, 236);
+}
+
+.InputField {
+    height: 3em;
+    width: 100%;
+}
+
+.InputField input {
+    padding: 0.5em 1em;
+    height: 100%;
+    width: 100%;
+    background-color: var(--input-color);
+    outline: none;
+    border: 1px solid var(--grey);
+    font-size: inherit;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+    text-align: center;
+}
+
+.InputField input:focus {
+    outline: 2px solid var(--blue-2);
+    border-color: transparent;
+}
+
+.InputField button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--grey);
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+}

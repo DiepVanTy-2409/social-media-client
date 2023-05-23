@@ -1,0 +1,37 @@
+.comment {
+    padding: 1em 0.8em;
+}
+.comment .Avatar {
+    flex-shrink: 0;
+}
+.comment__yourComment {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.comment__yourComment .input {
+    flex: 1;
+}
+
+.comment__message {
+    margin: 1em 0;
+    max-width: 100%;
+}
+
+.comment__text {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 0.8em 1.5em;
+    border-radius: 0.7em;
+    -webkit-border-radius: 0.7em;
+    -moz-border-radius: 0.7em;
+    -ms-border-radius: 0.7em;
+    -o-border-radius: 0.7em;
+    width: max-content;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    margin-left: 2em;
+    max-width: calc(100% - 4em);
+}
+

@@ -1,0 +1,75 @@
+.chatPage {
+    background-color: #f5f7fb;
+    height: 100vh;
+    display: flex;
+    /* overflow: auto; */
+}
+
+.chatPage__left {
+    flex: 0 0 22em;
+    height: 100vh;
+    overflow: auto;
+    scrollbar-width: thin;
+    border-right: 1px solid  var(--grey);
+    padding: 0 0.5em;
+    background-color: var(--white);
+}
+
+.chatPage__left__top {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    padding: 1em 0.5em;
+}
+
+.chatPage__right {
+    flex: 2;
+    height: 100%;
+    height: 100vh;
+}
+
+.chatPage__conversations {
+    display: grid;
+    gap: 0.5em;
+    padding: 0.5em;
+}
+
+.button__goback {
+    display: inline-block;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0.3em;
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid transparent;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    font-size: 2rem;
+}
+
+.button__goback:hover {
+    border-color: var(--grey);
+}
+@media screen and (max-width: 48em) {
+    .chatPage__left .Conversation {
+        background-color: transparent;
+    }
+    .chatPage__left .Conversation__userInfo,
+    .chatPage__left__top   {
+        display: none;
+    }
+    .chatPage__left {
+        flex-basis: 7.5em;
+    }
+}

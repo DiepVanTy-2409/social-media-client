@@ -1,0 +1,19 @@
+.sidebar-left {
+    padding: 1em 1.32em;
+    display: grid;
+    gap: 1em;
+    position: fixed;
+    height: 100vh;
+    border-right: 1px solid var(--grey);
+    background-color: var(--white);
+    z-index: var(--indexOfSidebar);
+    width: 16em;
+    max-width: 18em;
+    scrollbar-width: thin;
+}
+.sidebar-left::-webkit-scrollbar {
+    width: 5px;
+}
+.sidebar-left::-webkit-scrollbar-thumb {
+    background-color: var(--grey)
+}

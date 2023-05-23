@@ -1,0 +1,46 @@
+.statusBar {
+    background-color: var(--white);
+    padding: 1em;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+    border: 1px solid var(--grey);
+}
+
+.statusBar__avatar__input {
+    display: flex;
+    align-items: center;
+    gap: 0.75em;
+}
+
+.statusBar .input {
+    flex-grow: 1;
+}
+
+.statusBar__icons {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.statusBar__icons svg {
+    cursor: pointer;
+}
+.statusBar__footer {
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.statusBar__pen__post {
+    display: flex;
+    align-items: center;
+    gap: 1.2em;
+}
+
+.statusBar__pen__post .flex-center {
+    gap: 0.3em;
+    color: var(--grey-2);
+}

@@ -1,0 +1,16 @@
+.FollowCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+.FollowCard .User {
+    background-color: var(--white);
+    padding: 1em;
+    box-shadow: var(--shadow);
+    border-radius: 0.3em;
+    -webkit-border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+    -ms-border-radius: 0.3em;
+    -o-border-radius: 0.3em;
+}

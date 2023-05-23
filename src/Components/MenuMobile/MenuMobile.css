@@ -1,0 +1,53 @@
+.MenuMobile {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: var(--white);
+    z-index: var(--indexMenuIcon);
+    align-items: center;
+    box-shadow: var(--shadow);
+    justify-content: space-between;
+    gap: 1em;
+    padding: 0.5em 1em 0.5em;
+}
+
+.MenuMobile>a {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.MenuMobile>.search-bar {
+    flex: 3;
+}
+
+.MenuMobile svg {
+    color: var(--grey-2);
+}
+
+.MenuMobile a.active svg {
+    color: var(--blue);
+}
+
+.MenuMobile_msgCount {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--red);
+    color: white;
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transform: translateY(-30%);
+    -webkit-transform: translateY(-30%);
+    -moz-transform: translateY(-30%);
+    -ms-transform: translateY(-30%);
+    -o-transform: translateY(-30%);
+}

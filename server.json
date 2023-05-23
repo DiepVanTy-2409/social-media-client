@@ -1,0 +1,68 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "John Smith",
+            "email": "johnsmith@example.com",
+            "image": "https://cdn.pixabay.com/photo/2016/04/26/07/57/woman-1353825__340.png",
+            "school": "University of California, Berkeley",
+            "address": "123 Main St, San Francisco, CA 94105"
+        },
+        {
+            "id": 2,
+            "name": "Jane Smith",
+            "email": "janesmith@example.com",
+            "image": "https://images.unsplash.com/photo-1593085512500-5d55148d6f0d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FydG9vbiUyMGNoYXJhY3RlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+            "school": "Stanford University",
+            "address": "456 Second St, San Francisco, CA 94107"
+        },
+        {
+            "id": 3,
+            "name": "Bob Johnson",
+            "email": "bobjohnson@example.com",
+            "image": "https://images.unsplash.com/photo-1637858868799-7f26a0640eb6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+            "school": "Massachusetts Institute of Technology",
+            "address": "789 Third St, San Francisco, CA 94109"
+        },
+        {
+            "id": 4,
+            "name": "Alice Lee",
+            "email": "alicelee@example.com",
+            "image": "https://plus.unsplash.com/premium_photo-1661414561433-cfeffc4430da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+            "school": "University of California, Los Angeles",
+            "address": "101 Fourth St, San Francisco, CA 94111"
+        },
+        {
+            "id": 5,
+            "name": "David Kim",
+            "email": "davidkim@example.com",
+            "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+            "school": "Carnegie Mellon University",
+            "address": "111 Fifth St, San Francisco, CA 94113"
+        },
+        {
+            "id": 6,
+            "name": "Emily Chen",
+            "email": "emilychen@example.com",
+            "image": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+            "school": "University of California, San Diego",
+            "address": "222 Sixth St, San Francisco, CA 94115"
+        },
+        {
+            "id": 7,
+            "name": "Frank Wang",
+            "email": "frankwang@example.com",
+            "image": "https://images.unsplash.com/photo-1558898479-33c0057a5d12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+            "school": "Harvard University",
+            "address": "333 Seventh St, San Francisco, CA 94117"
+        },
+        {
+            "id": 8,
+            "name": "Grace Kim",
+            "email": "gracekim@example.com",
+            "image": "https://images.unsplash.com/photo-1558899460-5bfd4c5f091a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+            "school": "Yale University",
+            "address": "444 Eighth St, San Francisco, CA 94119"
+        }
+    ]
+}

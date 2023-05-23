@@ -1,0 +1,42 @@
+.LinkIcon a {
+    color: var(--grey-2);
+    text-decoration: none;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.LinkIcon a.active {
+    font-weight: 600;
+    color: var(--blue);
+    background-color: #f9f9f9;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+}
+
+.VerticalNavigation__chatLink {
+    position: relative;
+}
+
+.VerticalNavigation__MessageCount {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--red);
+    color: white;
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    right: 30%;
+    top: 1em;
+    font-size: 0.8rem;
+}

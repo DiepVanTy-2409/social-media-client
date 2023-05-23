@@ -1,0 +1,18 @@
+.not-found {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    color: var(--grey);
+    text-align: center;
+}
+
+.not-found-status {
+    font-size: 5rem;
+    font-weight: 1000;
+}
+.not-found-text {
+    font-size: 3rem;
+}

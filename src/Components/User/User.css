@@ -1,0 +1,30 @@
+.User {
+    display: flex;
+    align-items: center;
+    gap: 0.75em;
+}
+.User__name {
+    text-transform: capitalize;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis ;
+}
+.User__info {
+    color: var(--grey-2);
+    font-size: 0.9rem;
+}
+
+.Avatar {
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.Avatar__image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,72 @@
+.ChatBox {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: grid;
+}
+
+.chatBox__header {
+    height: max-content;
+}
+
+.chatBox__body {
+    padding: 1em;
+    display: grid;
+    gap: 1em;
+    overflow: auto;
+    height: 100%;
+}
+
+.chatBox__messageLine {
+    display: grid;
+    height: max-content;
+}
+
+.chatBox__message {
+    width: max-content;
+
+    padding: 0.5em 1.5em;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+}
+
+.chatBox__message.otherUser {
+    color: var(--white);
+    background-image: linear-gradient(to right, #c471f5 0%, #e569bc 100%);
+    border-radius: 0 1.1em 1.1em 1.1em;
+    -webkit-border-radius: 0 1.1em 1.1em 1.1em;
+    -moz-border-radius: 0 1.1em 1.1em 1.1em;
+    -ms-border-radius: 0 1.1em 1.1em 1.1em;
+    -o-border-radius: 0 1.1em 1.1em 1.1em;
+}
+
+.chatBox__message.own {
+    justify-self: end;
+    background-image: linear-gradient(to right, #08b9eb 0%, #005aeaaf 100%);
+    color: var(--white);
+    border-radius: 1.1em 0 1.1em 1.1em;
+    -webkit-border-radius: 1.1em 0 1.1em 1.1em;
+    -moz-border-radius: 1.1em 0 1.1em 1.1em;
+    -ms-border-radius: 1.1em 0 1.1em 1.1em;
+    -o-border-radius: 1.1em 0 1.1em 1.1em;
+}
+
+.chatBox__message .message {
+    line-height: 1.5;
+}
+
+.message__timeAgo {
+    font-size: 0.8em;
+    text-align: right;
+}
+
+.chatBox__textField {
+    background-color: var(--white);
+    padding: 1em;
+    height: max-content;
+    align-self: flex-end;
+    display: flex;
+}

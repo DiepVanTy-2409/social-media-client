@@ -1,0 +1,63 @@
+.search-bar {
+    position: relative;
+    height: 2.68em;
+}
+
+.search-bar>svg {
+    position: absolute;
+    top: 50%;
+    left: 0.9em;
+    transform: translateY(-50%);
+    z-index: 1;
+    font-size: 1.3rem;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    color: var(--grey-2)
+}
+
+.search-bar__field {
+    font-size: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border: 1.5px solid var(--grey);
+    outline: none;
+    border-radius: 0.4em;
+    -webkit-border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+    -ms-border-radius: 0.4em;
+    -o-border-radius: 0.4em;
+    padding-left: 3em;
+}
+
+.search-bar .search_result {
+    background-color: var(--white);
+    position: absolute;
+    z-index: 1000;
+    top: 100%;
+    margin-top: 0.5em;
+    min-width: 100%;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--grey);
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+    padding: 0.5em ;
+}
+
+.search-bar .search_result>p {
+    text-align: center;
+    padding: 0.5em;
+    font-style: italic;
+    color: var(--blue);
+}
+
+.search-bar .search_result>.User {
+    padding: 0.5em;
+}

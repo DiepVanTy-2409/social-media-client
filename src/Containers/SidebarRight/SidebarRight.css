@@ -1,0 +1,33 @@
+.sidebar-right {
+    padding-top: 1em;
+    padding-right: 1em;
+    display: grid;
+    gap: 1em;
+    position: fixed;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sidebar-right>* {
+    background-color: var(--white);
+    padding: 1em;
+    border: 1px solid var(--grey);
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+}
+
+.sidebar-right:hover {
+    overflow-y: auto;
+    scrollbar-width: thin;
+}
+
+.sidebar-right::-webkit-scrollbar {
+    width: 5px;
+}
+
+.sidebar-right::-webkit-scrollbar-thumb {
+    background-color: var(--grey)
+}

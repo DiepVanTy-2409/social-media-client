@@ -1,0 +1,40 @@
+.Conversation {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    background-color: var(--white);
+}
+
+.Conversation__avatar {
+    position: relative;
+}
+
+.online-dot {
+    background-color: mediumseagreen;
+    display: inline-block;
+    height: 0.98em;
+    width: 0.98em;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    right: 6%;
+    top: 3%;
+    border: 2px solid var(--white);
+}
+
+.Conversation__userName {
+    font-size: 1.2rem;
+}
+
+.Conversation__userState {
+    color: var(--grey-2);
+}
+
+.Conversation__userInfo {
+    width: 100%;
+}
